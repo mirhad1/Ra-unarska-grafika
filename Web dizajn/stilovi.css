@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"]{
+    float: left;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #00b200ff;
+    height: 40px;
+}
+.slusalica{
+    text-align: center;
+    padding-top: 10px;
+}
+.broj{
+    margin-top: -23px;
+    margin-left: 120px;
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.posta{
+    padding-top: 11px;
+}
+.e-mail{
+    margin-top: -22px;
+    margin-left: 20px;
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.instagram{
+    padding-top: 12px;
+    margin-left: -70px;
+}
+.ig{
+    margin-top: -24px;
+    margin-left: 20px;
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.zoo{
+    margin-top: -4px;
+    text-align: right;
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.header2{
+    background-color: rgb(0, 109, 0);
+    height: 120px;
+}
+ 
+.nav a{
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color: #00b200ff;   
+}
+ 
+.nav a:hover{
+    color: black;
+    background-color: white;
+}
+ 
+.nav ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+ 
+.nav li{
+    display: inline-block;
+
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.75em;
+    line-height: 80px;
+    width: 210px;
+}
+ 
+.logo{
+    text-align: center;   
+}
+form {
+border: 2px solid white;
+color: white;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 3px 5px;
+padding-right: 95px;
+margin: 2px;
+display: inline-block;
+border: 1px solid white;
+box-sizing: border-box;
+}
+button {
+background-color: #00b200ff;
+color: white;
+padding: 6px;
+margin: 4px;
+border: none;
+width: 71.4%;
+margin-left: 108px;
+}
+button:hover {
+background-color: white;
+color: black;
+}
+
+img{
+    opacity: 0.9;
+}
+h1{
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+}
+.r_vrijeme{
+    position: absolute;
+    top: 570px;
+    left: 100px;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 2px  1px 0px #000;
+}
+.video{
+    text-align: center;
+    background-color: black;
+    margin-top: -5px;
+}
+.mapa{
+    text-align: center;
+    margin-top: -5px;
+}
+.karta{
+    text-align: center;
+    margin-top: -3px;
+}
+h2{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+.footer{
+    background-color: green ;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+.onama{
+    font-family: cursive;
+    text-align:center;
+    padding: 18px;
+}
+
+.cjenovnik{
+    margin-top: 6px;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    flex: 30%;
+    border: 5px solid rgb(0, 109, 0);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
